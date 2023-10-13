@@ -26,7 +26,7 @@ Using Looker report TRAP - Audiobook Historical Changes https://lookerstudio.goo
 Using the combined list of titles with acceptable awards and NYT best sellers, the list of titles is compared via Vlookup, to a Looker Report of any title in TRAP with Awards to identify the titles that need to be updated. Awards are not removed from titles in TRAP regardless if they are removed from the title's incoming metadata.
 TRAP Ids are identified via SQL query in `findaway-etl-data-ingestion.trap_prod.audiobook_{date}` to create an import file for TRAP to make the appropriate updates to the "Awards" field for each title.
 
-(This process has recently been updated to use BigQuery but the logic remains the same)
+(This process has recently been updated to use BigQuery instead of Looker but the logic remains the same)
 
 
 
